@@ -1,0 +1,16 @@
+= 회원
+== 회원 등록
+include::{snippets}/example-controller-test/register-person-test/http-request.adoc[]
+include::{snippets}/example-controller-test/register-person-test/request-fields.adoc[]
+include::{snippets}/example-controller-test/register-person-test/http-response.adoc[]
+
+== 회원 조회
+include::{snippets}/example-controller-test/find-person-test/http-request.adoc[]
+include::{snippets}/example-controller-test/find-person-test/path-parameters.adoc[]
+include::{snippets}/example-controller-test/find-person-test/http-response.adoc[]
+include::{snippets}/example-controller-test/find-person-test/response-fields.adoc[]
+
+== 회원 리스트 조회
+include::{snippets}/example-controller-test/find-all-people-test/http-request.adoc[]
+include::{snippets}/example-controller-test/find-all-people-test/http-response.adoc[]
+include::{snippets}/example-controller-test/find-all-people-test/response-fields.adoc[]
